@@ -1,0 +1,22 @@
+@font-face {
+    font-family: CalSans;
+    src: url(CalSans-Regular.ttf);
+}
+
+body {
+    font-family: CalSans;
+    background-color: rgb(250, 181, 84);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#spinning_cat {
+    width: 400px;
+    position: absolute;
+    right: 550px;
+}
+
+h1 {
+    text-align: center;
+    font-family: CalSans;
+}

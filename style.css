@@ -1,0 +1,49 @@
+@font-face {
+    font-family: CalSans;
+    src: url(CalSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(RobotoCondensed-Regular.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: CalSans;
+    color: rgb(255, 255, 255);
+    z-index: 9999999;
+}
+
+body {
+    background-color: rgb(250, 181, 84);
+}
+
+#canvas {
+    position: absolute;
+    background-color: rgb(221, 55, 55);
+    width: 350px;
+    height: 75px;
+    right: 590px;
+    z-index: -1;
+}
+
+#l1 {
+    font-family: CalSans;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+#canvas2 {
+    position: absolute;
+    top: 150px;
+    height: 60px;
+    width: 220px;
+    left: 20px;
+    background-color: rgb(215, 66, 66);
+}
+
