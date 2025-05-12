@@ -22,7 +22,7 @@ body {
 
 #canvas {
     position: absolute;
-    background-color: rgb(221, 55, 55);
+    background-color: ffcb70;
     width: 350px;
     height: 75px;
     right: 590px;
@@ -44,6 +44,6 @@ body {
     height: 60px;
     width: 220px;
     left: 20px;
-    background-color: rgb(215, 66, 66);
+    background-color: #ffcb70;
 }
 

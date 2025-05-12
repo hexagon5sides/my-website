@@ -11,9 +11,10 @@ body {
 }
 
 #spinning_cat {
-    width: 400px;
+    width: 500px;
     position: absolute;
-    right: 550px;
+    right: 500px;
+    top: 200px;
 }
 
 h1 {
