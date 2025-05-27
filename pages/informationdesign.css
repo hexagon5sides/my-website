@@ -12,9 +12,9 @@ body {
 
 #spinning_cat {
     width: 500px;
-    position: absolute;
-    right: 500px;
-    top: 200px;
+    display: block;
+    width: fit-content;
+    margin: auto;
 }
 
 h1 {

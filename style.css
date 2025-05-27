@@ -1,49 +1,85 @@
 @font-face {
-    font-family: CalSans;
-    src: url(CalSans-Regular.ttf);
+  font-family: CalSans;
+  src: url(CalSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: RobotoCondensed;
-    src: url(RobotoCondensed-Regular.ttf);
+  font-family: RobotoCondensed;
+  src: url(RobotoCondensed-Regular.ttf);
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
-    font-family: CalSans;
-    color: rgb(255, 255, 255);
-    z-index: 9999999;
+  text-align: center;
+  font-size: 50px;
+  font-family: CalSans;
+  color: rgb(255, 255, 255);
+  z-index: 9999999;
 }
 
 body {
-    background-color: rgb(250, 181, 84);
+  background-color: rgb(250, 181, 84);
 }
 
 #canvas {
-    position: absolute;
-    background-color: ffcb70;
-    width: 350px;
-    height: 75px;
-    right: 590px;
-    z-index: -1;
+  position: absolute;
+  background-color: #ffcb70;
+  width: 350px;
+  height: 75px;
+  right: 590px;
+  z-index: -1;
 }
 
-#l1 {
-    font-family: CalSans;
-    position: absolute;
-    top: 150px;
-    left: 30px;
-    font-size: 35px;
-    color: rgb(255, 255, 255);
+#dopamine {
+  font-family: CalSans;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+#information {
+  font-family: CalSans;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
 }
 
 #canvas2 {
-    position: absolute;
-    top: 150px;
-    height: 60px;
-    width: 220px;
-    left: 20px;
-    background-color: #ffcb70;
+  position: absolute;
+  top: 150px;
+  height: 60px;
+  width: 220px;
+  left: 30px;
+  background-color: #ffcb70;
 }
 
+#games {
+  font-family: CalSans;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+#canvas3 {
+  position: absolute;
+  top: 145px;
+  height: 60px;
+  width: 140px;
+  right: 40px;
+  background-color: #ffcb70;
+}
+
+#canvas4 {
+  position: absolute;
+  background-color: #ffcb70;
+  top: 120px;
+  width: 400px;
+  height: 115px;
+  right: 560px;
+  z-index: -1;
+}
