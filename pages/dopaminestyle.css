@@ -3,6 +3,20 @@
     src: url(CalSans-Regular.ttf);
 }
 
-#dopamine {
+body {
+    background-color: #ffcb70;
+}
+
+#clickbutton {
+    font-family: CalSans;
+    position: absolute;
+    width: 200px; 
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#Clicks {
+    font-family: CalSans;
     
 }

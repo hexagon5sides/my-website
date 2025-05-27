@@ -31,9 +31,9 @@ body {
 
 #dopamine {
   font-family: CalSans;
-  display: block;
-  width: fit-content;
-  margin: auto;
+  position: absolute;
+  top: 175px;
+  left: 640px;
   font-size: 50px;
   color: rgb(255, 255, 255);
 }
@@ -77,9 +77,9 @@ body {
 #canvas4 {
   position: absolute;
   background-color: #ffcb70;
-  top: 120px;
+  top: 150px;
   width: 400px;
   height: 115px;
-  right: 560px;
+  right: 568px;
   z-index: -1;
 }
